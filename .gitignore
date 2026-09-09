@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.terralocator/
+data/regions/*.osm.geojson
+!data/regions/demo.hazards.geojson
+data/countries/
+venv/
+.venv/
+.vscode/
+.idea/
+*.egg-info/

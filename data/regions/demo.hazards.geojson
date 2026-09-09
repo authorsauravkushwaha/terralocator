@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "_readme": "Every point below is an EXAMPLE placed only to demonstrate the schema and the map's rendering. None of it has been independently verified. Replace or delete these before using this layer for any real decision. See README.md > 'Adding real hazard data' for how to add verified points.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [87.8697, 22.4327] },
+      "properties": {
+        "id": "demo-police-1",
+        "type": "police",
+        "title": "EXAMPLE: Nearest police station",
+        "description": "Placeholder only. Replace with a real, verified police station location near you.",
+        "source": "DEMO - EXAMPLE ONLY, not verified",
+        "verified": false,
+        "added_at": "2026-01-01T00:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [87.8750, 22.4300] },
+      "properties": {
+        "id": "demo-danger-1",
+        "type": "danger",
+        "title": "EXAMPLE: Unmarked hazard point",
+        "description": "Placeholder only, to show how a danger marker renders. Do not treat this location as actually hazardous.",
+        "source": "DEMO - EXAMPLE ONLY, not verified",
+        "verified": false,
+        "added_at": "2026-01-01T00:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [87.8650, 22.4360] },
+      "properties": {
+        "id": "demo-safezone-1",
+        "type": "safe_zone",
+        "title": "EXAMPLE: Designated shelter point",
+        "description": "Placeholder only, to show how a safe-zone marker renders. Verify any real shelter location locally before relying on it.",
+        "source": "DEMO - EXAMPLE ONLY, not verified",
+        "verified": false,
+        "added_at": "2026-01-01T00:00:00+00:00"
+      }
+    }
+  ]
+}
